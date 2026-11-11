@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #e2e8f0;
+  background: #020817;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.card {
+  @apply rounded-xl border border-slate-800 bg-slate-900 p-4 shadow-sm;
+}
+
+button, input, select {
+  @apply outline-none;
+}
